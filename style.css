@@ -18,7 +18,16 @@ body{
     background-image: url(images/background/exp-bg.png);
     background-repeat: no-repeat;
     margin-top: 150px;
-
+}
+.last-section{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 200px;
+    justify-content: space-around;
+    width: 70%;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: wheat;
 }
 
 
@@ -35,6 +44,7 @@ body{
 }
 .division img{
     border-radius: 20px;
+    border: 2px solid;
 }
 .section_3{
     display: flex;
@@ -64,15 +74,24 @@ body{
     padding: 40px;
     border-radius: 20px;
     background-color: thistle;
-    margin-left: 20px;
-
-    
+    margin-left: 20px;   
 }
+.last-image{
+    margin: 50px;
+    border: 7px solid;
+    border-image: linear-gradient(green,red);
+    border-image-slice: 1;
+}
+
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    margin-top: 200px;
+}
+.link-div{
+    margin-top: 50px;
 }
 
 
@@ -117,4 +136,28 @@ footer{
 }
 .year{
     color: yellow;
+}
+.facebook{
+    background-image: linear-gradient(blue,rgb(31, 134, 141));
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+
+}
+.instagram{
+    background-image: linear-gradient(rgb(230, 51, 51), rgb(143, 92, 27));
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.youtube{
+    background-image: linear-gradient(rgb(180, 9, 9),rgb(199, 87, 23));
+    margin-top: 60px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
 }
