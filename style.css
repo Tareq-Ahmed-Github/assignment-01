@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*section*/
+
+.travellers-of-bd{
+    display: flex;
+    background-image: url(images/background/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.section-2nd{
+    margin-top: 150px;
+}
+.middle-section{
+    background-image: url(images/background/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+
+}
+
+/*division*/
+
+.division{
+    margin-top: 80px;
+    width: 80%;
+    padding-left: 80px;
+
+}
+.division img{
+    border-radius: 20px;
+}
+.section_3{
+    display: flex;
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.division-2nd{
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px green;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+
+/*others*/
+
+.paragraph{
+    text-align: justify;
+}
+
+.button{
+    background-image: linear-gradient(red,green);
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.name_color{
+    color: red;
+}
+.heading{
+    color: green;
+}
+.description{
+    color: gray;
+}
+.flex{
+    display: flex;
+}
