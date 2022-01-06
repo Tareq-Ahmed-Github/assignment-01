@@ -57,7 +57,7 @@ body{
     display: flex;
     width: 80%;
     margin-left: 200px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .division-one{
     width: 80%;
@@ -126,6 +126,7 @@ footer{
 .heading{
     color: green;
     padding-left: 5px;
+    font-size: 40px;
 }
 .border-left{
     border-left: 10px solid;
@@ -170,4 +171,7 @@ footer{
 }
 .upcoming{
     color: white;
+}
+.bottom{
+    margin-bottom: 100px;
 }
