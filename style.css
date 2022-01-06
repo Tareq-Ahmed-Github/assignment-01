@@ -42,6 +42,13 @@ body{
     padding-left: 80px;
 
 }
+.division-bandarban{
+    margin-top: 80px;
+    width: 80%;
+    padding-left: 80px;
+    padding-right: 120px;
+
+}
 .division img{
     border-radius: 20px;
     border: 2px solid;
